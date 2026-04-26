@@ -1,0 +1,185 @@
+:root {
+        --violet: #7F77DD;
+        --violet-light: #EEEDFE;
+        --violet-dark: #534AB7;
+        --bleu: #85B7EB;
+        --bleu-light: #E6F1FB;
+    }
+
+    body {
+        background: #fff;
+        color: #1a1a1a;
+    }
+
+    /* ── HERO ── */
+    .hero {
+        padding: 80px 0 64px;
+    }
+    .hero-tag {
+        display: inline-block;
+        font-size: 13px;
+        background: var(--violet-light);
+        color: var(--violet-dark);
+        padding: 5px 16px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .hero-title {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.15;
+        letter-spacing: -1px;
+        margin-bottom: 18px;
+    }
+    .hero-title em {
+        color: var(--violet);
+        font-style: normal;
+    }
+    .hero-sub {
+        font-size: 16px;
+        color: #666;
+        line-height: 1.7;
+        max-width: 440px;
+        margin-bottom: 32px;
+    }
+    .btn-hero {
+        background: var(--violet);
+        color: #fff;
+        border: none;
+        padding: 12px 28px;
+        border-radius: 24px;
+        font-size: 15px;
+        transition: background 0.15s;
+    }
+    .btn-hero:hover {
+        background: var(--violet-dark);
+        color: #fff;
+    }
+    .btn-hero-ghost {
+        background: transparent;
+        color: var(--violet-dark);
+        border: 1px solid #AFA9EC;
+        padding: 12px 28px;
+        border-radius: 24px;
+        font-size: 15px;
+        transition: background 0.15s;
+    }
+    .btn-hero-ghost:hover {
+        background: var(--violet-light);
+        color: var(--violet-dark);
+    }
+    .hero-visual {
+        background: var(--violet-light);
+        border-radius: 24px;
+        height: 340px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* ── SECTION VEDETTES ── */
+    .section-title {
+        font-size: 26px;
+        font-weight: 500;
+        margin-bottom: 6px;
+    }
+    .section-sub {
+        font-size: 15px;
+        color: #888;
+        margin-bottom: 36px;
+    }
+
+    /* ── CARDS ── */
+    .tshirt-card {
+        border: 1px solid #ebebeb;
+        border-radius: 16px;
+        overflow: hidden;
+        transition: border-color 0.15s;
+        background: #fff;
+    }
+    .tshirt-card:hover {
+        border-color: #AFA9EC;
+    }
+    .tshirt-card .card-img-top {
+        aspect-ratio: 1;
+        object-fit: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-placeholder {
+        aspect-ratio: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .badge-new {
+        position: absolute;
+        top: 12px; left: 12px;
+        font-size: 11px;
+        background: var(--violet);
+        color: #fff;
+        padding: 3px 10px;
+        border-radius: 12px;
+    }
+    .badge-sale {
+        position: absolute;
+        top: 12px; left: 12px;
+        font-size: 11px;
+        background: #378ADD;
+        color: #fff;
+        padding: 3px 10px;
+        border-radius: 12px;
+    }
+    .card-name {
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 4px;
+    }
+    .card-color-label {
+        font-size: 12px;
+        color: #999;
+        margin-bottom: 10px;
+    }
+    .price {
+        font-size: 15px;
+        font-weight: 500;
+        color: var(--violet-dark);
+    }
+    .price-old {
+        font-size: 12px;
+        color: #bbb;
+        text-decoration: line-through;
+        margin-right: 4px;
+    }
+    .btn-add {
+        font-size: 12px;
+        padding: 6px 14px;
+        border-radius: 14px;
+        background: var(--violet-light);
+        color: var(--violet-dark);
+        border: none;
+        transition: background 0.15s;
+    }
+    .btn-add:hover {
+        background: #CECBF6;
+        color: var(--violet-dark);
+    }
+
+    /* ── BANNIÈRE ── */
+    .promo-banner {
+        background: var(--violet-light);
+        border-radius: 20px;
+        padding: 48px 40px;
+    }
+    .promo-banner h2 {
+        font-size: 28px;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+    .promo-banner p {
+        color: var(--violet-dark);
+        font-size: 15px;
+        margin: 0;
+    }
